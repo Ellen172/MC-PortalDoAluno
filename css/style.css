@@ -59,10 +59,51 @@ li > a:hover, a:active {
 }
 
 #conteudo {
-    background-color: white;
-    width: 913px;
-    height: 450px;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+    width: 913px;
+    height: 225px;
+}
+
+.img-media{
+    width: 180px;
+    margin: 10px;
+}
+
+#article {
+    background-color: #DCDCDC;
+    margin: 10px;
+    width: 50%;
+    height: 90%;
+    display: flex;
+}
+
+#article-img {
+    background-color: transparent;
+    display: block;
+    margin: auto;
+}
+
+#article-text {
+    background-color: transparent;
+    margin: 5px 0;
+}
+
+#article-text h1 {
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 4px;
+}
+
+#article-text h2 {
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 4px;
 }
